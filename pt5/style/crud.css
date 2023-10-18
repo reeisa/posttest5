@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #1e1e1e;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: #9fff76;
+}
+
+.navbar img {
+    width: 90px;
+    margin: 20px 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0 50px;
+}
+
+.navbar ul li {
+    font-size: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #9fff76;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* table */
+.read-container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.read-container h1 {
+    margin: 20px;
+    color: white;
+}
+
+.read-container table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.read-container th {
+    background-color: #9fff76;
+}
+
+.read-container td,
+.read-container th {
+    padding: 12px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+}
+
+.edit {
+    background-color: blue;
+}
+
+.delete {
+    background-color: red;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* update */
+.form-container {
+    position: relative;
+    width: 400px;
+    height: 470px;
+    padding: 20px 30px;
+    background: white;
+    box-shadow: 2px 2px 10px #9fff76;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+.form-container h2{
+    text-align: center;
+    margin: 10px 0px 20px;
+    font-size: 25px;
+}
+
+.form-container .form-element {
+    margin: 15px 0;
+}
+
+input[type="text"], input[type="email"]{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+} 
+
+.form-container button {
+    background-color: #9fff76;
+    color: black;
+}
